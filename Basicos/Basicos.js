@@ -32,6 +32,16 @@ console.log(familia[2]);
 //COMO EU VEJO O TAMANHO DA ARRAY?
 console.log(familia.length);
 
+//Loops principais:
+//O laço de repetição faz com que ele repita quantas vezes for menor que santos.
+let santos = 10
+
+for(let i = 0; i < santos; i++){
+    console.log("Maior time do mundo")
+}
+
+
+
 
 
 
