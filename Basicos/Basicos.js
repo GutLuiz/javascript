@@ -51,6 +51,15 @@ else{
     console.log(vasco)
 }
 
-
-
+//Operadores logicos:
+// && = E
+console.log(true && true) // Para dar true os dois parametros tem que estar certos.
+// || = OU
+console.log(false || true) // Para dar true um parametro entre os dois tem que ser true.
+// !  = NÃO
+let recusado = !estaAprovado
+// != = DIFERENTE
+if (santos != 5){
+    console.log("SANTOS");
+}
 
