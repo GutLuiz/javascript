@@ -40,9 +40,16 @@ for(let i = 0; i < santos; i++){
     console.log("Maior time do mundo")
 }
 
-
-
-
+//Condicionais:
+if(santos > flamengo){
+    console.log("O santos é o maior clube do mundo")
+}
+else if (flamengo > gremio){
+    console.log("Time pipoqueiro")
+}
+else{
+    console.log(vasco)
+}
 
 
 
