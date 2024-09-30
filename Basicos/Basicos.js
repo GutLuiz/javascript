@@ -51,6 +51,26 @@ else{
     console.log(vasco)
 }
 
+// Switch case:
+let usuario;
+
+switch(usuario){
+    case 'comum':
+        console.log("usuario Comum")
+        break;
+
+        case 'gerente':
+            console.log("Usuario gerente")
+            break;
+
+            case 'diretor':
+            console.log("usuario diretor")
+            break;
+
+            default:
+                console.log("usuario não encontrado")
+}
+
 //Operadores logicos:
 // && = E
 console.log(true && true) // Para dar true os dois parametros tem que estar certos.
@@ -62,4 +82,5 @@ let recusado = !estaAprovado
 if (santos != 5){
     console.log("SANTOS");
 }
+
 
